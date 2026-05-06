@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div>Daily Check</div>
+  <div>
+    <a href="home.html">Home</a>
+    <a href="clima.html">Temperatura</a>
+    <a href="tarefas.html">Tarefas</a>
+  </div>
+</div>
+
+<div class="container">
+  <h2>Adicionar tarefa</h2>
+
+
+  <form onsubmit="salvar(event)">
+    <input id="nome" placeholder="Nome">
+    <input id="inicio" type="date">
+    <input id="fim" type="date">
+    <input id="descricao" placeholder="Descrição">
+
+    <button type="submit">Salvar</button>
+  </form>
+</div>
+
+<script src="tarefas.js"></script>
+</body>
+</html>
